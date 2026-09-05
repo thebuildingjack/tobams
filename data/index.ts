@@ -1,4 +1,3 @@
-import { title } from "process";
 
 export const whatwedo = [
   {
@@ -18,23 +17,63 @@ export const whatwedo = [
     img: "",
     desc: "Begin a journey of lifelong learning and professional development with Tobams Group's diverse range of training programs for individuals. From technical skills mastery to soft skills enhancement, our courses cover a wide spectrum of topics to meet the evolving needs of today's professionals.",
     bullets: [
-      { points: "" },
-      { points: "" },
-      { points: "" },
-      { points: "" },
-      { points: "" },
+      { points: "Leadership Development" },
+      { points: "Soft Skills Development" },
+      { points: "Industry Specific Knowledge" },
+      { points: "Technical Skills Enhancement" },
+      { points: "Time Management and Productivity" },
+      { points: "Career Development" },
     ]
   },
   {
-    title: "",
+    title: "Capacity Development",
     img: "",
-    desc: "",
+    desc: "At Tobams Group, we empower individuals and organizations through tailored training programs, expert-led workshops, and personalized mentorship. We are committed to your success and growth. We are dedicated to providing a comprehensive suite of benefits designed to foster your development and success:",
     bullets: [
-      { points: "" },
-      { points: "" },
-      { points: "" },
-      { points: "" },
-      { points: "" },
+      { points: "Tailored Training Programs" },
+      { points: "Expert-Led Workshops" },
+      { points: "Personalized Mentorship" },
+      { points: "Technical Skills Enhancement" },
+      { points: "Collaborative Learning Environment" },
+      { points: "Ongoing Support and Resources" },
     ]
+  },
+]
+
+
+export const footerLinks = [
+  { title:"What We Do",
+    text: [
+      {txt: "Sustainability Services", href: "/" },
+      {txt: "Strategy Planning and Implementation", href: "/" },
+      {txt: "Tech Talent Solutions", href: "/" },
+      {txt: "Training and Development", href: "/" },
+      {txt: "IT Consulting Services", href: "/" },
+      {txt: "Social Impact", href: "/" },
+    ],
+  },
+  { title:"Company",
+    text: [
+      {txt: "About", href: "/" },
+      {txt: "Jobs", href: "/" },
+      {txt: "Projects", href: "/" },
+      {txt: "Our Founder", href: "/" },
+      {txt: "The Team", href: "/" },
+      {txt: "Contact Us", href: "/" },
+      {txt: "Blog", href: "/" },
+      {txt: "FAQs", href: "/" },
+      {txt: "Testimonials", href: "/" },
+    ],
+  },
+  { title:"Solution",
+    text: [
+      {txt: "Tobams Group Academy", href: "/" },
+      {txt: "Help a Tech Talent", href: "/" },
+      {txt: "Campus Ambassadors Program", href: "/" },
+      {txt: "Join Our Platform", href: "/" },
+      {txt: "Pricing", href: "/" },
+      {txt: "Book a Consultation", href: "/" },
+      {txt: "Join Our Slack Community", href: "/" },
+    ],
   },
 ]

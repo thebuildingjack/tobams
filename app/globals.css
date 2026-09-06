@@ -22,5 +22,11 @@ body {
   h1 {
     @apply font-nunito 
   }
+  h3 {
+    @apply font-nunito text-xl text-[#151515] font-semibold
+  }
+  p {
+    @apply font-sans text-[#696969] text-[14px]
+  }
   }
 

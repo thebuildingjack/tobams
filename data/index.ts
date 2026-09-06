@@ -1,8 +1,15 @@
 
-export const whatwedo = [
+interface WhatWeDoItem {
+  title: string;
+  img: string;
+  desc: string;
+  bullets: { points: string }[];
+}
+
+export const whatwedo: WhatWeDoItem[] = [
   {
     title: "Corporate Trainings",
-    img: "",
+    img: "/corporate-trainings.svg",
     desc: "Empower your team with our customised Corporate Training programs designed to address the unique needs and objectives of your organisation. Our expert facilitators work closely with your team to deliver tailored learning experiences that align with your company's goals and values. ",
     bullets: [
       { points: "Leadership Training" },
@@ -14,7 +21,7 @@ export const whatwedo = [
   },
   {
     title: "Personalised Individual Training",
-    img: "",
+    img: "/pi-trainings.svg",
     desc: "Begin a journey of lifelong learning and professional development with Tobams Group's diverse range of training programs for individuals. From technical skills mastery to soft skills enhancement, our courses cover a wide spectrum of topics to meet the evolving needs of today's professionals.",
     bullets: [
       { points: "Leadership Development" },
@@ -27,7 +34,7 @@ export const whatwedo = [
   },
   {
     title: "Capacity Development",
-    img: "",
+    img: "/capacity-development.svg",
     desc: "At Tobams Group, we empower individuals and organizations through tailored training programs, expert-led workshops, and personalized mentorship. We are committed to your success and growth. We are dedicated to providing a comprehensive suite of benefits designed to foster your development and success:",
     bullets: [
       { points: "Tailored Training Programs" },

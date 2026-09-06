@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import LearningManagementSystem from "@/components/LearningManagementSystem";
 import Navbar from "@/components/Navbar";
 import WhatWeDo from "@/components/WhatWeDo";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="relative min-h-dvh flex flex-col items-center font-nunito">
       <Navbar />
       <Hero />
+      <LearningManagementSystem />
       <WhatWeDo />
     </div>
   );

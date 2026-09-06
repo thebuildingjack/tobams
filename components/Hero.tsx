@@ -1,17 +1,43 @@
-import Image from 'next/image'
+import Image from "next/image"
+import Button from "./Button"
 
 const Hero = () => {
   return (
-    <div className='w-full relative flex flex-col justify-center items-center'>
-      <Image src="/heroimg-mobile.jpg" alt="TOBAMS Logo" width={500} height={500} className="relative w-full h-full object-cover" />
-      <div className="w-full h-full backdrop-blur-[2px] absolute inset-0 flex flex-col items-center justify-center px-6 py-10 text-white">
-        <p className="text-center text-white py-4 px-8 uppercase">
-          what we do
+    <section className="relative w-full min-h-80 md:min-h-130 lg:min-h-140 overflow-hidden">
+      {/* Background Image */}
+      <Image
+        src="/heroimg-mobile.jpg"
+        alt="Learning and Development"
+        fill
+        priority
+        className="object-cover"
+      />
+
+      <div className="absolute inset-0 bg-black/55" />
+
+      <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center text-white">
+        
+        <p className="rounded-full bg-white/10 px-8 py-2.5 text-xs uppercase text-white font-semibold">
+          What We Do
         </p>
-        <h1 className=''>Learning and Development</h1>
-        <p className='font-semibold font-sans text-md'>Welcome to Tobams Group, where we redefine tech talent acquisition. In a rapidly evolving digital landscape, securing top-tier tech professionals is crucial. Dive into our specialized service—Tech Talent Solution—and witness how we revolutionize your team with the best in the industry.</p>
+        
+        <h1 className="mt-3 text-xl font-bold md:text-4xl">
+          Training and Development
+        </h1>
+        
+        <p className="mt-3 text-sm leading-relaxed font-sans text-white md:w-2'3">
+          Our comprehensive range of programs and resources is designed to
+          enhance skills, broaden knowledge, and propel careers forward in
+          today&apos;s ever-evolving landscape.
+        </p>
+        
+        <Button
+          name="Book a Consultation"
+          link="/"
+          className="mt-5 rounded-sm bg-[#571244] px-5.5 py-2.75 text-sm text-white font-semibold hover:bg-[#571244]/90"
+        />
       </div>
-    </div>
+    </section>
   )
 }
 

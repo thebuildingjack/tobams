@@ -20,13 +20,16 @@ body {
 
 @layer utilities {
   h1 {
-    @apply font-nunito 
+    @apply font-nunito lg:text-5xl font-bold
   }
   h3 {
-    @apply font-nunito text-xl text-[#151515] font-semibold
+    @apply font-nunito text-xl lg:text-2xl text-[#151515] font-semibold
+  }
+  h4 {
+    @apply font-sans text-[16px] lg:text-lg text-[#571244] font-bold
   }
   p {
-    @apply font-sans text-[#696969] text-[14px]
+    @apply font-sans text-sm lg:text-base
   }
   }
 

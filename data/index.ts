@@ -84,3 +84,12 @@ export const footerLinks = [
     ],
   },
 ]
+
+export const courses = [
+  { course: "Business Analysis"},
+  { course: "Design Thinking"},
+  { course: "Effective Communication"},
+  { course: "Leadership Development"},
+  { course: "Career Development"},
+  { course: "Business Model"},
+]

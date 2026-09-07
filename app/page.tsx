@@ -1,4 +1,5 @@
 import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import LearningManagementSystem from "@/components/LearningManagementSystem";
 import ManagementDevProgram from "@/components/ManagementDevProgram";
@@ -20,6 +21,7 @@ export default function Home() {
       <TrainingConsultant />
       <Testimonials />
       <CTA />
+      <Footer />
     </div>
   );
 }

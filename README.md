@@ -55,6 +55,8 @@ No CSS frameworks or UI component libraries other than Tailwind CSS were used.
 │   └── page.tsx
 │
 ├── components/
+|   ├── ui /
+|       └── Button.tsx
 │   ├── Navbar.tsx
 │   ├── Hero.tsx
 │   ├── WhatWeDo.tsx
@@ -63,8 +65,7 @@ No CSS frameworks or UI component libraries other than Tailwind CSS were used.
 │   ├── TrainingConsultant.tsx
 │   ├── Testimonials.tsx
 │   ├── Footer.tsx
-│   ├── CTA.tsx
-│   └── ImageButton.tsx
+│   └── CTA.tsx
 │
 ├── data/
 │   └── index.ts

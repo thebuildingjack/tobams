@@ -112,13 +112,13 @@ const Footer = () => {
         
         <div className="mt-6 grid grid-cols-1 gap-4 rounded-sm bg-[#FFFFFF0F] px-4 py-3 md:grid-cols-3">
           
-          <div>
+          <div className="order-2 md:order-1 md:border-r md:border-white/10 md:pr-6">
             <h4 className="text-white font-semibold">
               Registered Offices
             </h4>
 
             <div className="mt-1">
-              <h4 className="text-[#FF4B68] text-xs font-semibold">
+              <h4 className="text-[#FF4B68] text-sm font-semibold">
                 United Kingdom
               </h4>
 
@@ -131,8 +131,8 @@ const Footer = () => {
             </div>
           </div>
           
-          <div>
-            <h4 className="text-[#FF4B68] text-xs font-semibold">
+          <div className="order-3 md:order-2 md:border-r md:border-white/10 md:px-6 md:pt-7">
+            <h4 className="text-[#FF4B68] text-sm font-semibold">
               Nigeria
             </h4>
 
@@ -143,20 +143,35 @@ const Footer = () => {
             </p>
           </div>
           
-          {/* Contact Information */}
-          <div>
-            <h4 className="text-white text-xs font-semibold">
+          <div className="order-1 md:order-3 md:pl-6">
+            <h4 className="text-white font-semibold">
               Contact Information
             </h4>
 
             <div className="mt-1 flex flex-col gap-1">
               <p className="text-white text-xs">
-                <span className="text-[#FF4B68]">✉</span>{" "}
+                <span className="text-[#FF4B68]">
+                  <Image
+                    src="/email.svg"
+                    alt="email"
+                    width={24}
+                    height={24}
+                    className="inline-flex mr-2 w-4 h-5"
+                  />
+                </span>{" "}
                 theteam@tobamsgroup.com
               </p>
 
               <p className="text-white text-xs">
-                <span className="text-[#FF4B68]">☎</span>{" "}
+                <span className="text-[#FF4B68]">
+                  <Image
+                    src="/call.svg"
+                    alt="email"
+                    width={24}
+                    height={24}
+                    className="inline-flex mr-2 w-5 h-5"
+                  />
+                </span>{" "}
                 +447886600748
               </p>
             </div>

@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-white text-sm font-semibold">
+            <h4 className="text-white text-lg font-semibold">
               What We Do
             </h4>
 
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-white text-sm font-semibold">
+            <h4 className="text-white text-lg font-semibold">
               Company
             </h4>
 
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-white text-sm font-semibold">
+            <h4 className="text-white text-lg font-semibold">
               Solution
             </h4>
 

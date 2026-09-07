@@ -276,3 +276,40 @@ export const footerLinks = {
   ],
 }
 
+export const navLinks = [
+  {
+    name: "About",
+    link: "/about",
+    dropdown: true,
+  },
+  {
+    name: "What We Do",
+    link: "/what-we-do",
+    dropdown: true,
+  },
+  {
+    name: "Jobs",
+    link: "/jobs",
+    dropdown: true,
+  },
+  {
+    name: "Projects",
+    link: "/projects",
+  },
+  {
+    name: "TG Academy",
+    link: "/tg-academy",
+  },
+  {
+    name: "Strategic Partnership",
+    link: "/strategic-partnership",
+  },
+  {
+    name: "Pricing",
+    link: "/pricing",
+  },
+  {
+    name: "Book a Consultation",
+    link: "/contact",
+  },
+]

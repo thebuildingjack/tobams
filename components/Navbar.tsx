@@ -58,17 +58,9 @@ const Navbar = () => {
         <div className="hidden items-center gap-3 md:flex">
 
           <Link
-            href="/account"
+            href="/"
             className="flex items-center gap-2 rounded-sm bg-[#571244] px-4 py-2 text-xs text-white"
           >
-            {/* <Image
-              src="/pfp.svg"
-              alt=""
-              width={16}
-              height={16}
-            />
-
-            <span>Account</span> */}
             <span className="flex items-center justify-center rounded-full bg-[#DDD0DA] ">
               <Image
                 src="/pfp.svg"
@@ -84,7 +76,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/assessment"
+            href="/"
             className="rounded-sm bg-[#FF4655] px-5 py-2.25 text-xs font-medium text-white"
           >
             Take Assessment
@@ -173,7 +165,7 @@ const Navbar = () => {
           <div className="mt-5 flex flex-col gap-3">
 
           <Link
-            href="/account"
+            href="/"
             onClick={closeMenu}
             className="flex items-center justify-center gap-2 rounded-sm bg-[#571244] px-4 py-3 text-sm text-white"
           >
@@ -183,7 +175,7 @@ const Navbar = () => {
                 alt=""
                 width={18}
                 height={18}
-                className="h-[18px] w-[18px] rounded-full"
+                className="h-4.5 w-4.5 rounded-full"
               />
             </span>
 
@@ -191,7 +183,7 @@ const Navbar = () => {
           </Link>
 
             <Link
-              href="/assessment"
+              href="/"
               onClick={closeMenu}
               className="flex items-center justify-center rounded-sm bg-[#FF4655] px-4 py-3 text-sm text-white"
             >

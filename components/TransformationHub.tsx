@@ -1,10 +1,10 @@
+import Button from "@/components/ui/Button"
 import { transformationHub } from "@/data"
 import Image from "next/image"
-import Button from "@/components/Button"
 
 const TransformationHub = () => {
   return (
-    <section className="w-full bg-[#f9f9f9] px-6 py-10 md:px-10">
+    <section id="transformation-hub" className="w-full bg-[#f9f9f9] px-6 py-10 md:px-10">
       <div className="mx-auto w-full max-w-6xl rounded-[20px] bg-[#FBDDE2] px-5 py-6 md:px-8 md:py-10">
 
         {/* Heading */}

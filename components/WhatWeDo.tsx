@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const WhatWeDo = () => {
   return (
-    <section className="lg:px-24 relative w-full bg-[#f9f9f9] px-6 py-10 md:px-12 lg:py-20">
+    <section id="what-we-do" className="lg:px-24 relative w-full bg-[#f9f9f9] px-6 py-10 md:px-12 lg:py-20">
       <ul className="mx-auto flex w-full max-w-7xl flex-col justify-center gap-8">
         {whatwedo.map((item, index) => (
           <li

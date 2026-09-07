@@ -161,10 +161,10 @@ export const testimonials = [
     image: "/testimonial-img3.svg",
   },
   {
-    name: "Michael T.",
-    role: "Operations Manager",
-    text: "A highly professional team with excellent knowledge and a genuine commitment to helping organisations grow.",
-    image: "/testimonial-img1.svg",
+    name: "John Davies",
+    role: "Marketing Manager, E-Commerce Emporium",
+    text: "Tobams Group's Digital Marketing strategies gave our brand the boost it needed. Simple yet powerful techniques that delivered tangible results. A pleasure to collaborate with!",
+    image: "/testimonial-img2.svg",
   },
 ]
 
@@ -173,70 +173,70 @@ export const footerLinks = {
   whatWeDo: [
     {
       name: "Branding Services",
-      link: "/branding-services",
+      link: "/",
     },
     {
       name: "Strategic Planning and Implementation",
-      link: "/strategic-planning",
+      link: "/",
     },
     {
       name: "Tech Talents Solutions",
-      link: "/tech-talent-solutions",
+      link: "/",
     },
     {
       name: "Training and Development",
-      link: "/training-development",
+      link: "/",
     },
     {
       name: "IT Consulting Services",
-      link: "/it-consulting",
+      link: "/",
     },
     {
       name: "Social Impact",
-      link: "/social-impact",
+      link: "/",
     },
     {
       name: "Talent Recruitment",
-      link: "/talent-recruitment",
+      link: "/",
     },
   ],
 
   company: [
     {
       name: "About",
-      link: "/about",
+      link: "/",
     },
     {
       name: "Jobs",
-      link: "/jobs",
+      link: "/",
     },
     {
       name: "People",
-      link: "/people",
+      link: "/",
     },
     {
       name: "Our Process",
-      link: "/our-process",
+      link: "/",
     },
     {
       name: "Diversity",
-      link: "/diversity",
+      link: "/",
     },
     {
       name: "The Team",
-      link: "/team",
+      link: "/",
     },
     {
       name: "Contact Us",
-      link: "/contact",
+      link: "/#footer",
     },
     {
       name: "Blog",
-      link: "/blog",
+      link: "/",
     },
     {
       name: "FAQs",
-      link: "/faqs",
+      link: "/",
     },
     {
       name: "Testimonials",
@@ -247,31 +247,31 @@ export const footerLinks = {
   solution: [
     {
       name: "Talent & Strategy Advisory",
-      link: "/talent-strategy-advisory",
+      link: "/",
     },
     {
       name: "Help & Tech Talent",
-      link: "/help-tech-talent",
+      link: "/",
     },
     {
       name: "Campus Ambassador Program",
-      link: "/campus-ambassador-program",
+      link: "/",
     },
     {
       name: "Join Our Platform",
-      link: "/join-our-platform",
+      link: "/",
     },
     {
       name: "Privacy",
-      link: "/privacy",
+      link: "/",
     },
     {
       name: "Book a Consultation",
-      link: "/contact",
+      link: "/",
     },
     {
       name: "Join Our Skills Community",
-      link: "/skills-community",
+      link: "/",
     },
   ],
 }
@@ -279,37 +279,37 @@ export const footerLinks = {
 export const navLinks = [
   {
     name: "About",
-    link: "/about",
+    link: "/",
     dropdown: true,
   },
   {
     name: "What We Do",
-    link: "/what-we-do",
+    link: "#what-we-do",
     dropdown: true,
   },
   {
     name: "Jobs",
-    link: "/jobs",
+    link: "/",
     dropdown: true,
   },
   {
     name: "Projects",
-    link: "/projects",
+    link: "/",
   },
   {
     name: "TG Academy",
-    link: "/tg-academy",
+    link: "/",
   },
   {
     name: "Strategic Partnership",
-    link: "/strategic-partnership",
+    link: "/",
   },
   {
     name: "Pricing",
-    link: "/pricing",
+    link: "/",
   },
   {
     name: "Book a Consultation",
-    link: "/contact",
+    link: "/",
   },
 ]

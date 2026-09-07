@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const ManagementDevProgram = () => {
   return (
-    <section className="w-full bg-[#f9f9f9] px-6 py-10 md:px-10">
+    <section id="management-dev-program" className="w-full bg-[#f9f9f9] px-6 py-10 md:px-10">
       <div className="mx-auto flex w-full max-w-6xl flex-col overflow-hidden rounded-[20px] bg-[#2C0922] p-4 md:flex-row md:items-center md:p-5">
         
         <div className="w-full md:w-1/2 space-y-4 md:space-y-0">

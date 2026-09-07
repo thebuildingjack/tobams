@@ -1,11 +1,11 @@
+import Button from "@/components/ui/Button"
 import { consultantFeatures } from "@/data"
-import Button from "@/components/Button"
 
 const TrainingConsultant = () => {
   return (
-    <section className="w-full bg-[#EDE7EC]">
+    <section id="training-consultant" className="w-full bg-[#EDE7EC]">
       
-      <div className="mx-auto w-full max-w-305 px-6 py-7 md:px-10 md:py-8">
+      <div className="mx-auto w-full max-w-305 px-6 pb-7 md:px-10 md:py-8">
 
         <h3 className="text-[#571244] text-start">
           Training The Consultant

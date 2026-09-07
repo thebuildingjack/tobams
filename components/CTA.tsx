@@ -1,8 +1,8 @@
-import Button from "@/components/Button"
+import Button from "@/components/ui/Button"
 
 const CTA = () => {
   return (
-    <section className="w-full bg-[#2C0922] px-6 py-5 md:px-10">
+    <section id="cta" className="w-full bg-[#2C0922] px-6 py-5 md:px-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 md:flex-row">
 
         <div>

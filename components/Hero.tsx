@@ -1,9 +1,9 @@
 import Image from "next/image"
-import Button from "./Button"
+import Button from "./ui/Button"
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-80 md:min-h-130 lg:min-h-140 overflow-hidden">
+    <section id="hero" className="relative w-full min-h-80 md:min-h-130 lg:min-h-140 overflow-hidden">
       {/* Background Image */}
       <Image
         src="/heroimg-mobile.jpg"

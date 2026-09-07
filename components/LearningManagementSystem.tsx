@@ -1,11 +1,11 @@
 import { courses } from '@/data'
 import Image from 'next/image'
-import Button from './Button'
+import Button from './ui/Button'
 
 
 const LearningManagementSystem = () => {
   return (
-    <section className="lg:px-24 flex flex-col mx-auto md:flex-row relative w-full bg-[#5712441A] p-6  lg:py-12 gap-5 lg:gap-8">
+    <section id="learning-management-system" className="lg:px-24 flex flex-col mx-auto md:flex-row relative w-full bg-[#5712441A] p-6  lg:py-12 gap-5 lg:gap-8">
       <h3 className="text-start text-[#571244] mt-2 md:hidden">
           Learning Management System
       </h3>

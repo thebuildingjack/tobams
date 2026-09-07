@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#11040E] px-4 py-6 text-white md:px-6 md:py-8">
+    <footer id="footer" className="w-full bg-[#11040E] px-4 py-6 text-white md:px-6 md:py-8">
       <div className="mx-auto max-w-7xl">
         
         <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-10">
@@ -26,7 +26,7 @@ const Footer = () => {
             </p>
             
             <div className="mt-3 flex gap-2">
-              <Link href="#">
+              <Link href="https://www.linkedin.com/company/tobams-group/" target="_blank">
                 <Image
                   src="/linkedin.svg"
                   alt="LinkedIn"
@@ -35,7 +35,7 @@ const Footer = () => {
                 />
               </Link>
 
-              <Link href="#">
+              <Link href="https://www.instagram.com/tobamsgroup/?igsh=cmkxY2hremU5a2Zw" target="_blank">
                 <Image
                   src="/ig.svg"
                   alt="Instagram"
@@ -44,7 +44,7 @@ const Footer = () => {
                 />
               </Link>
 
-              <Link href="#">
+              <Link href="https://x.com/tobams_group?s=11" target="_blank">
                 <Image
                   src="/x.svg"
                   alt="X"

@@ -100,3 +100,24 @@ export const managementDevProgram = [
   { point: "Stronger Organisational Culture" },
   { point: "Sustainable Growth" },
 ]
+
+export const transformationHub = [
+  {
+    point: "Strategic Career Guidance",
+  },
+  {
+    point: "Leadership Development",
+  },
+  {
+    point: "CV Development",
+  },
+  {
+    point: "Sustainability Leadership",
+  },
+  {
+    point: "Communication Skills",
+  },
+  {
+    point: "Business Model",
+  },
+]

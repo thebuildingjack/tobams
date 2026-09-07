@@ -47,44 +47,6 @@ export const whatwedo: WhatWeDoItem[] = [
   },
 ]
 
-
-/* export const footerLinks = [
-  { title:"What We Do",
-    text: [
-      {txt: "Sustainability Services", href: "/" },
-      {txt: "Strategy Planning and Implementation", href: "/" },
-      {txt: "Tech Talent Solutions", href: "/" },
-      {txt: "Training and Development", href: "/" },
-      {txt: "IT Consulting Services", href: "/" },
-      {txt: "Social Impact", href: "/" },
-    ],
-  },
-  { title:"Company",
-    text: [
-      {txt: "About", href: "/" },
-      {txt: "Jobs", href: "/" },
-      {txt: "Projects", href: "/" },
-      {txt: "Our Founder", href: "/" },
-      {txt: "The Team", href: "/" },
-      {txt: "Contact Us", href: "/" },
-      {txt: "Blog", href: "/" },
-      {txt: "FAQs", href: "/" },
-      {txt: "Testimonials", href: "/" },
-    ],
-  },
-  { title:"Solution",
-    text: [
-      {txt: "Tobams Group Academy", href: "/" },
-      {txt: "Help a Tech Talent", href: "/" },
-      {txt: "Campus Ambassadors Program", href: "/" },
-      {txt: "Join Our Platform", href: "/" },
-      {txt: "Pricing", href: "/" },
-      {txt: "Book a Consultation", href: "/" },
-      {txt: "Join Our Slack Community", href: "/" },
-    ],
-  },
-] */
-
 export const courses = [
   { course: "Business Analysis"},
   { course: "Design Thinking"},
@@ -172,7 +134,7 @@ export const testimonials = [
 export const footerLinks = {
   whatWeDo: [
     {
-      name: "Branding Services",
+      name: "Sustainable Services",
       link: "/",
     },
     {
@@ -211,15 +173,15 @@ export const footerLinks = {
       link: "/",
     },
     {
-      name: "People",
+      name: "Projects",
       link: "/",
     },
     {
-      name: "Our Process",
+      name: "Our Founder",
       link: "/",
     },
     {
-      name: "Diversity",
+      name: "Business Model",
       link: "/",
     },
     {
@@ -246,11 +208,11 @@ export const footerLinks = {
 
   solution: [
     {
-      name: "Talent & Strategy Advisory",
+      name: "Tobams Group Academy",
       link: "/",
     },
     {
-      name: "Help & Tech Talent",
+      name: "Help a Tech Talent",
       link: "/",
     },
     {
@@ -262,7 +224,7 @@ export const footerLinks = {
       link: "/",
     },
     {
-      name: "Privacy",
+      name: "Pricing",
       link: "/",
     },
     {
@@ -270,7 +232,7 @@ export const footerLinks = {
       link: "/",
     },
     {
-      name: "Join Our Skills Community",
+      name: "Join Our Slack Community",
       link: "/",
     },
   ],

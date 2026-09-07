@@ -13,7 +13,7 @@ const WhatWeDo = () => {
             }`}
           >
             <div className="flex w-full flex-col gap-4 md:w-1/2 text-[#696969]">
-              <h3 className="text-start">
+              <h3 className="text-start text-[#151515]">
                 {item.title}
               </h3>
 

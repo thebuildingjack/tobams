@@ -93,3 +93,10 @@ export const courses = [
   { course: "Career Development"},
   { course: "Business Model"},
 ]
+
+export const managementDevProgram = [
+  { point: "Enhanced Leadership Skills" },
+  { point: "Improved Employee Engagement" },
+  { point: "Stronger Organisational Culture" },
+  { point: "Sustainable Growth" },
+]

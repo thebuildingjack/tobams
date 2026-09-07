@@ -121,3 +121,49 @@ export const transformationHub = [
     point: "Business Model",
   },
 ]
+
+export const consultantFeatures = [
+  {
+    title: "Expert-Led Learning",
+    desc: "Gain insight from seasoned professionals in the field as they mentor you through the subtleties of business analysis.",
+  },
+  {
+    title: "Interactive Workshops",
+    desc: "Engage in hands-on workshops designed to enhance your training capabilities and provide practical insights.",
+  },
+  {
+    title: "Comprehensive Curriculum",
+    desc: "Access a robust curriculum that covers fundamental principles and advanced methodologies, ensuring a well-rounded understanding.",
+  },
+  {
+    title: "Global Recognition",
+    desc: "You will attain a globally recognized certification, opening doors to new career opportunities and industry recognition.",
+  },
+]
+
+export const testimonials = [
+  {
+    name: "Aisha Yusuf",
+    role: "Founder, Alpha Group",
+    text: "Working with Tobams Group on our website was a breeze. They understood our vision and transformed it into a beautiful online space. Highly recommend their Website Design service!",
+    image: "/testimonial-img1.svg",
+  },
+  {
+    name: "John Davies",
+    role: "Marketing Manager, E-Commerce Emporium",
+    text: "Tobams Group's Digital Marketing strategies gave our brand the boost it needed. Simple yet powerful techniques that delivered tangible results. A pleasure to collaborate with!",
+    image: "/testimonial-img1.svg",
+  },
+  {
+    name: "Chinonso Nwankwo",
+    role: "HR Director, FutureTech Solutions",
+    text: "Tobams Group has been instrumental in our talent acquisition journey. Their Tech Talent Solution service consistently connects us with the right professionals. Reliable and straightforward.",
+    image: "/testimonial-img1.svg",
+  },
+  {
+    name: "Michael T.",
+    role: "Operations Manager",
+    text: "A highly professional team with excellent knowledge and a genuine commitment to helping organisations grow.",
+    image: "/testimonial-img1.svg",
+  },
+]

@@ -70,7 +70,7 @@ const TransformationHub = () => {
               width={10}
               height={10}
               link="/"
-              className="md:hidden w-max rounded-sm bg-[#571244] px-6 py-2.75 text-sm text-white! font-semibold hover:bg-[#571244]/90"
+              className="mt-4 w-max rounded-sm bg-[#571244] px-6 py-2.75 text-sm text-white! font-semibold hover:bg-[#571244]/90"
             />
           </div>
 

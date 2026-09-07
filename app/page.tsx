@@ -1,7 +1,10 @@
+import CTA from "@/components/CTA";
 import Hero from "@/components/Hero";
 import LearningManagementSystem from "@/components/LearningManagementSystem";
 import ManagementDevProgram from "@/components/ManagementDevProgram";
 import Navbar from "@/components/Navbar";
+import Testimonials from "@/components/Testimonials";
+import TrainingConsultant from "@/components/TrainingConsultant";
 import TransformationHub from "@/components/TransformationHub";
 import WhatWeDo from "@/components/WhatWeDo";
 
@@ -14,6 +17,9 @@ export default function Home() {
       <WhatWeDo />
       <ManagementDevProgram />
       <TransformationHub />
+      <TrainingConsultant />
+      <Testimonials />
+      <CTA />
     </div>
   );
 }

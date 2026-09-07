@@ -29,10 +29,10 @@ const Button: React.FC<ButtonProps> = ({
   reverse = false
 }) => {
   const buttonContent = (
-    <div className={`flex justify-center items-center gap-3 text-white
+    <div className={`flex justify-center items-center gap-3
       ${reverse ? 'flex-row-reverse' : ''}`
     }>
-      <p className="flex items-center">{name}</p>
+      <span className="flex items-center">{name}</span>
       {src && (
         <Image
           src={src}

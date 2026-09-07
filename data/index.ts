@@ -48,7 +48,7 @@ export const whatwedo: WhatWeDoItem[] = [
 ]
 
 
-export const footerLinks = [
+/* export const footerLinks = [
   { title:"What We Do",
     text: [
       {txt: "Sustainability Services", href: "/" },
@@ -83,7 +83,7 @@ export const footerLinks = [
       {txt: "Join Our Slack Community", href: "/" },
     ],
   },
-]
+] */
 
 export const courses = [
   { course: "Business Analysis"},
@@ -167,3 +167,112 @@ export const testimonials = [
     image: "/testimonial-img1.svg",
   },
 ]
+
+
+export const footerLinks = {
+  whatWeDo: [
+    {
+      name: "Branding Services",
+      link: "/branding-services",
+    },
+    {
+      name: "Strategic Planning and Implementation",
+      link: "/strategic-planning",
+    },
+    {
+      name: "Tech Talents Solutions",
+      link: "/tech-talent-solutions",
+    },
+    {
+      name: "Training and Development",
+      link: "/training-development",
+    },
+    {
+      name: "IT Consulting Services",
+      link: "/it-consulting",
+    },
+    {
+      name: "Social Impact",
+      link: "/social-impact",
+    },
+    {
+      name: "Talent Recruitment",
+      link: "/talent-recruitment",
+    },
+  ],
+
+  company: [
+    {
+      name: "About",
+      link: "/about",
+    },
+    {
+      name: "Jobs",
+      link: "/jobs",
+    },
+    {
+      name: "People",
+      link: "/people",
+    },
+    {
+      name: "Our Process",
+      link: "/our-process",
+    },
+    {
+      name: "Diversity",
+      link: "/diversity",
+    },
+    {
+      name: "The Team",
+      link: "/team",
+    },
+    {
+      name: "Contact Us",
+      link: "/contact",
+    },
+    {
+      name: "Blog",
+      link: "/blog",
+    },
+    {
+      name: "FAQs",
+      link: "/faqs",
+    },
+    {
+      name: "Testimonials",
+      link: "/testimonials",
+    },
+  ],
+
+  solution: [
+    {
+      name: "Talent & Strategy Advisory",
+      link: "/talent-strategy-advisory",
+    },
+    {
+      name: "Help & Tech Talent",
+      link: "/help-tech-talent",
+    },
+    {
+      name: "Campus Ambassador Program",
+      link: "/campus-ambassador-program",
+    },
+    {
+      name: "Join Our Platform",
+      link: "/join-our-platform",
+    },
+    {
+      name: "Privacy",
+      link: "/privacy",
+    },
+    {
+      name: "Book a Consultation",
+      link: "/contact",
+    },
+    {
+      name: "Join Our Skills Community",
+      link: "/skills-community",
+    },
+  ],
+}
+

@@ -4,9 +4,9 @@ A responsive static implementation of the Tobams Group website based on the prov
 
 ## Live Demo
 
-**Live URL:** [Add your Vercel URL here]
+**Live URL:**  https://tobams-sepia.vercel.app/
 
-**GitHub Repository:** [Add your public GitHub repository URL here]
+**GitHub Repository:** https://github.com/thebuildingjack/tobams
 
 ## Design Reference
 

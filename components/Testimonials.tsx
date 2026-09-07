@@ -29,7 +29,7 @@ const Testimonials = () => {
     <section className="w-full bg-white px-6 py-8 md:px-10 md:py-10">
       <div className="mx-auto w-full max-w-7xl">
 
-        <h3 className="mb-5 text-center !text-[#151515]">
+        <h3 className="mb-5 text-center text-[#151515]">
           Testimonials
         </h3>
 
@@ -50,17 +50,17 @@ const Testimonials = () => {
                 />
 
                 <div>
-                  <h4 className="!text-[#151515] text-xs">
+                  <h4 className="text-[#151515] text-sm">
                     {testimonial.name}
                   </h4>
 
-                  <p className="!text-[#696969] text-[10px]">
+                  <p className="text-[#696969] text-[10px]">
                     {testimonial.role}
                   </p>
                 </div>
               </div>
 
-              <p className="mt-3 text-start !text-[#151515] text-xs leading-relaxed">
+              <p className="mt-3 text-start text-[#151515] text-sm leading-relaxed">
                 {testimonial.text}
               </p>
             </article>

@@ -152,13 +152,13 @@ export const testimonials = [
     name: "John Davies",
     role: "Marketing Manager, E-Commerce Emporium",
     text: "Tobams Group's Digital Marketing strategies gave our brand the boost it needed. Simple yet powerful techniques that delivered tangible results. A pleasure to collaborate with!",
-    image: "/testimonial-img1.svg",
+    image: "/testimonial-img2.svg",
   },
   {
     name: "Chinonso Nwankwo",
     role: "HR Director, FutureTech Solutions",
     text: "Tobams Group has been instrumental in our talent acquisition journey. Their Tech Talent Solution service consistently connects us with the right professionals. Reliable and straightforward.",
-    image: "/testimonial-img1.svg",
+    image: "/testimonial-img3.svg",
   },
   {
     name: "Michael T.",

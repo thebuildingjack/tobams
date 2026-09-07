@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tobams Group — Frontend Intern Assessment
 
-## Getting Started
+A responsive static implementation of the Tobams Group website based on the provided Figma design.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Live URL:** [Add your Vercel URL here]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**GitHub Repository:** [Add your public GitHub repository URL here]
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design Reference
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The implementation is based on the official assessment Figma design:
 
-## Learn More
+[Frontend Intern Assessment — Figma](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS v4
+- Next/Image
+- Next/Font
+- Vercel
 
-## Deploy on Vercel
+No CSS frameworks or UI component libraries other than Tailwind CSS were used.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Features
+
+- Fully responsive layout for mobile, tablet, and desktop
+- Responsive navigation with mobile menu
+- Reusable button component
+- Data-driven navigation and footer links
+- Responsive testimonial section with navigation controls
+- Responsive content sections matching the provided Figma design
+- Optimized images using `next/image`
+- Fonts loaded using `next/font`
+- Semantic HTML structure
+- Accessible navigation, links, buttons, and images
+
+---
+
+## Project Structure
+
+```text
+.
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── WhatWeDo.tsx
+│   ├── ManagementDevProgram.tsx
+│   ├── TransformationHub.tsx
+│   ├── TrainingConsultant.tsx
+│   ├── Testimonials.tsx
+│   ├── Footer.tsx
+│   ├── CTA.tsx
+│   └── ImageButton.tsx
+│
+├── data/
+│   └── index.ts
+│
+├── public/
+│   ├── images/
+│   └── *.svg
+│
+├── package.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
